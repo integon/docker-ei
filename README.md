@@ -1,16 +1,7 @@
-# Docker Resources for WSO2 Integration
+# Micro Integrator Docker Images
 
-This repository contains following Docker resources:
+This repository builds the General Availability Micro Integrator Ubuntu based Docker images for amd64 and arm64 (Mac M1) architecture. It uses
+the manually created releases in https://github.com/integonch/micro-integrator. See the [wso2mi containers](https://github.com/integonch/docker-ei/pkgs/container/wso2mi) for all available versions.
 
-- Per profile Docker resources of WSO2 Integration v4.2.x product profiles (Micro Integrator, Streaming Integrator and MI Dashboard)
-  for Alpine, CentOS and Ubuntu
-
-Per profile Docker resources for WSO2 Integration help you build generic Docker images for deploying the
-corresponding product servers in containerized environments.
-
-Each Docker image includes the Java Development Kit, the relevant product distribution and a collection of utility libraries.
-Configurations and non-configuration resources (e.g. binaries such as, third-party libraries, Carbon extensions,
-Carbon Applications and security related artifacts such as, Java Keystore files) are designed to be provided via
-volume mounts to the containers spawned.
-
-**Change log** from previous v4.1.x release: [View Here](https://github.com/wso2/docker-ei/blob/4.1.x/CHANGELOG.md)
+The images are inteded for development and testing purposes only. For production use, please
+use the official WSO2 product Docker images from https://docker.wso2.com.
