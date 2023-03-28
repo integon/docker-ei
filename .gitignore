@@ -48,3 +48,7 @@ docker-compose/integrator-broker-analytics/mysql/data/*
 
 docker-compose/integrator-broker-bps-analytics/mysql/data/*
 !docker-compose/integrator-broker-bps-analytics/mysql/data/.gitkeep
+
+# Nix
+.envrc
+.direnv
