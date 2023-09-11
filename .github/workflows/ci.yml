@@ -27,4 +27,4 @@ jobs:
           context: dockerfiles/ubuntu/micro-integrator
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/integonch/wso2mi:4.1.0
+          tags: ghcr.io/integon/wso2mi:4.1.0
