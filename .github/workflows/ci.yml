@@ -27,4 +27,7 @@ jobs:
           context: dockerfiles/ubuntu/micro-integrator
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/integon/wso2mi:4.2.0
+          tags: ghcr.io/integon/wso2mi:4.2.65
+          secrets: |
+            "WSO2_USERNAME=${{ secrets.WSO2_USERNAME }}"
+            "WSO2_PASSWORD=${{ secrets.WSO2_PASSWORD }}"
